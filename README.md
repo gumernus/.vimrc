@@ -1,18 +1,18 @@
 # Gumernus's .vimrc
 
 ## Installation
-#### Install vim-plug
+#### Install vim-plug (in terminal)
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 ```
-#### Plug all plugins
+#### Plug all plugins (in vim)
 ```
-: source %
+source %
 ```
 ```
-: PlugInstall
+PlugInstall
 ```
 
 ## Mapping
