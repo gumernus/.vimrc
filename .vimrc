@@ -15,6 +15,7 @@ Plug 'vim-scripts/AutoComplPop'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'kien/rainbow_parentheses.vim'
+Plug 'itchyny/lightline.vim'
 call plug#end()
 
 color dracula
@@ -34,6 +35,15 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+set laststatus=2
+augroup NERD
+    au!
+    autocmd StdinReadPre * let s:std_in=1
+    autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+    autocmd VimEnter * wincmd p
+    autocmd VimEnter * call lightline#update()
+augroup END
 
 set mouse=a
 map <ScrollWheelUp> <C-Y>
