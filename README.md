@@ -1,6 +1,17 @@
 # Gumernus's .vimrc
 
 ## Installation
+#### Download .vimrc (in terminal)
+```
+git clone https://github.com/gumernus/vimrc
+```
+```
+cd vimrc
+```
+```
+mv .vimrc ~/.vimrc
+```
+
 #### Install vim-plug (in terminal)
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
