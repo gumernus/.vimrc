@@ -4,9 +4,7 @@ filetype on
 filetype plugin on
 filetype indent on
 set number
-packadd! dracula
 syntax enable
-colorscheme dracula
 
 set tabstop=4
 set shiftwidth=4
@@ -16,6 +14,8 @@ Plug 'vim-scripts/AutoComplPop'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
 call plug#end()
+
+color dracula
 
 nnoremap H gT
 nnoremap L gt
