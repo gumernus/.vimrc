@@ -14,6 +14,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-scripts/AutoComplPop'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
+Plug 'kien/rainbow_parentheses.vim'
 call plug#end()
 
 color dracula
@@ -28,6 +29,11 @@ nnoremap <C-s> :NERDTreeToggle<cr>
 nnoremap <C-d> :below terminal<cr>
 
 nnoremap <C-a> :Commentary<cr>
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 set mouse=a
 map <ScrollWheelUp> <C-Y>
