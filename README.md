@@ -19,6 +19,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ```
 #### Plug all plugins (in vim)
+Go thru all errors and then type `:`
 ```
 source %
 ```
