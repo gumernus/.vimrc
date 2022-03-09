@@ -10,6 +10,7 @@ set tabstop=4
 set shiftwidth=4
 
 call plug#begin()
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'vim-scripts/AutoComplPop'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
