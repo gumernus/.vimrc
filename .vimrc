@@ -10,15 +10,22 @@ set tabstop=4
 set shiftwidth=4
 
 call plug#begin()
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'vv9k/vim-github-dark'
+
 Plug 'vim-scripts/AutoComplPop'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'itchyny/lightline.vim'
+Plug '907th/vim-auto-save'
+
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()
 
-color dracula
+colorscheme ghdark
+let g:gh_color = "soft"
 
 nnoremap H gT
 nnoremap L gt
@@ -44,6 +51,9 @@ augroup NERD
     autocmd VimEnter * wincmd p
     autocmd VimEnter * call lightline#update()
 augroup END
+
+let g:auto_save = 1
+let g:auto_save_events = ["InsertLeave", "TextChanged", "CursorHold", "CursorHoldI"]
 
 set mouse=a
 map <ScrollWheelUp> <C-Y>
