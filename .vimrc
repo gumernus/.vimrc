@@ -27,7 +27,6 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()
 
 colorscheme ghdark
-let g:gh_color = "soft"
 
 nnoremap H gT
 nnoremap L gt
