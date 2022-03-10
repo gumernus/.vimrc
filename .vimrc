@@ -9,6 +9,8 @@ syntax enable
 set tabstop=4
 set shiftwidth=4
 
+set winheight=38
+
 call plug#begin()
 Plug 'vv9k/vim-github-dark'
 
