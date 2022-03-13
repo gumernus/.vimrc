@@ -33,11 +33,12 @@ nnoremap L gt
 
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 autocmd VimEnter * NERDTree | wincmd p
-nnoremap <C-s> :NERDTreeToggle<cr>
+nnoremap <C-b> :NERDTreeToggle<cr>
 
 nnoremap <C-d> :below terminal<cr>
 
 nnoremap <C-a> :Commentary<cr>
+inoremap <C-a> <esc>:Commentary<cr>
 
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
