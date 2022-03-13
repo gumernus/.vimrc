@@ -5,8 +5,9 @@
 - Good keymapping
 - Lightweight and fast
 
-![screenshot](https://user-images.githubusercontent.com/70224036/157724350-f0c46ffa-7634-4033-a441-c915005e3068.png)
-![screenshot](https://user-images.githubusercontent.com/70224036/157724068-d72188f1-2869-4529-80cc-6517983edb99.png)
+![image](https://user-images.githubusercontent.com/70224036/158071859-48faff10-997f-4576-be84-a2d526281ab9.png)
+![image](https://user-images.githubusercontent.com/70224036/158071871-4675abfc-142f-47a8-81a7-327a752cbc00.png)
+
 
 ## Installation
 #### Download .vimrc (in terminal)
@@ -39,7 +40,7 @@ PlugInstall
 #### In Files
 - CTRL + ww `jump between windows`
 - CTRL + a `comment/uncomment`
-- CTRL + s `toggle file tree`
+- CTRL + b `toggle file tree`
 - CTRL + d `open terminal`
 - 
 #### In File Tree
