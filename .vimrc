@@ -1,19 +1,23 @@
+:set number
+:set autoindent
+:set tabstop=4
+:set shiftwidth=4
+:set smarttab
+:set softtabstop=4
+:set mouse=a
+:set encoding=UTF-8
+set winheight=38
 set nocompatible
 set clipboard=unnamed
 filetype on
 filetype plugin on
 filetype indent on
-set number
 syntax enable
 
-set tabstop=4
-set shiftwidth=4
-
-set winheight=38
-
 call plug#begin()
-Plug 'vv9k/vim-github-dark'
+Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 
+Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'vim-scripts/AutoComplPop'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
@@ -21,12 +25,16 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'itchyny/lightline.vim'
 Plug '907th/vim-auto-save'
 
+
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()
 
-colorscheme ghdark
+set background=dark
+set termguicolors
+colorscheme deep-space
+set noshowmode
 
 nnoremap H gT
 nnoremap L gt
@@ -34,6 +42,8 @@ nnoremap L gt
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 autocmd VimEnter * NERDTree | wincmd p
 nnoremap <C-b> :NERDTreeToggle<cr>
+let g:NERDTreeDirArrowExpandable="+"
+let g:NERDTreeDirArrowCollapsible="~"
 
 nnoremap <C-d> :below terminal<cr>
 
