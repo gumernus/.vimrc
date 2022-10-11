@@ -17,14 +17,13 @@ syntax enable
 call plug#begin()
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 
-Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'vim-scripts/AutoComplPop'
+
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-commentary'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'itchyny/lightline.vim'
 Plug '907th/vim-auto-save'
-
 
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
@@ -33,7 +32,7 @@ call plug#end()
 
 set background=dark
 set termguicolors
-colorscheme deep-space
+colorscheme one
 set noshowmode
 
 nnoremap H gT
