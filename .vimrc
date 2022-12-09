@@ -1,14 +1,13 @@
 :set number
 :set autoindent
-:set tabstop=4
+:set tabstop=2
 :set shiftwidth=4
 :set smarttab
-:set softtabstop=4
 :set mouse=a
 :set encoding=UTF-8
-set winheight=38
-set nocompatible
-set clipboard=unnamed
+:set winheight=38
+:set nocompatible
+:set clipboard=unnamed
 filetype on
 filetype plugin on
 filetype indent on
