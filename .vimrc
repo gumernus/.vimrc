@@ -1,6 +1,6 @@
 :set number
 :set autoindent
-:set tabstop=2
+:set tabstop=1
 :set shiftwidth=4
 :set smarttab
 :set mouse=a
