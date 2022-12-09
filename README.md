@@ -6,6 +6,7 @@
 - Lightweight and fast
 
 ![image](https://user-images.githubusercontent.com/70224036/206741359-0cde84ee-192e-4ae8-921b-c2669f6db76c.png)
+(this .vimrc does not include the "fancy" terminal prompt. Its [powerlevel10k](https://github.com/romkatv/powerlevel10k) )
 
 ## Installation
 #### Download .vimrc (in terminal)
