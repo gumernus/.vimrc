@@ -5,7 +5,7 @@
 - Good keymapping
 - Lightweight and fast
 
-![image](https://user-images.githubusercontent.com/70224036/168889002-f8145220-b0e5-41a1-b206-e77a116d27e2.png)
+![image](https://user-images.githubusercontent.com/70224036/206741359-0cde84ee-192e-4ae8-921b-c2669f6db76c.png)
 
 ## Installation
 #### Download .vimrc (in terminal)
