@@ -17,7 +17,7 @@ git clone https://github.com/gumernus/vimrc
 cd vimrc
 ```
 ```
-mv .vimrc ~/.vimrc
+mv .vimrc ~/.vim/.vimrc
 ```
 
 #### Install vim-plug (in terminal)
